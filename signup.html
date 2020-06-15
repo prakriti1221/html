@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+</head>
+<body>
+	<h1>Course sign up page</h1>
+	<p>Note: First name,Last name, Email and password are required.</p>
+	<form>
+	First Name: <br>
+      <input type="text" name="First Name" placeholder="Firstname" required><br><br>
+      Last Name: <br>
+      <input type="text" name="Last Name" placeholder="Lastname" required><br><br>
+	Email:<br>
+	<input type="text" name="Email" placeholder="example@gmail.com" required>
+	<br><br>
+	Password:<br>
+	<input type="Password" name="PSW" required>
+	<br>
+	<br>
+
+	Are you above the age of 18?<br>
+	<input type="radio" name="Age" value="Yes">Yes
+	<input type="radio" name="Age" value="No">No
+	<br><br>
+
+	Do you have a credit card or paypal?<br>
+	<select name="payment">
+		<option value="creditcard">Credit Card</option>
+		<option value="paypal">Paypal</option>
+		
+	</select>
+	<br><br>
+
+	Enter your date of birth:<br>
+	<input type="date" name="bday" min="1979-2020"><br><br>
+
+    Message us:<br>
+        <textarea name="message" rows="10" cols="50">       	
+        </textarea><br><br>
+
+
+          <input type="Submit" onclick="alert('Successful')" value="Submit">
+          <input type="Reset">
+     
+     </form>
+
+</body>
+</html>
